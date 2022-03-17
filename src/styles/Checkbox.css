@@ -1,0 +1,33 @@
+.checkbox-pseudo {
+  width: 100%;
+  position: relative;
+  display: block;
+  border-radius: 5px;
+  border: 2px solid #04aa6d;
+  color: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+}
+
+.checkbox-pseudo:hover {
+  background-color: #04aa6d;
+}
+
+.checkbox-pseudo__invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.checkbox-pseudo__visible {
+  width: 100%;
+  display: block;
+  padding: 5px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
