@@ -5,7 +5,7 @@ const Generator = ({ children }) => {
 };
 
 Generator.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.array.isRequired,
 };
 
 export default Generator;

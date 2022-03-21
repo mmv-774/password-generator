@@ -5,3 +5,9 @@
   font-size: 72px;
   text-align: center;
 }
+
+@media screen and (max-width: 650px) {
+  .title {
+    font-size: calc(42px + (72 - 42) * (100vw - 320px) / (650 - 320));
+  }
+}

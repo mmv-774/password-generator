@@ -14,7 +14,7 @@ const Slider = ({ minValue, maxValue, defaultValue }) => {
   };
 
   return (
-    <div class='slider'>
+    <div className='slider'>
       <div className='slider__labels-container'>
         <label htmlFor='slider-input' className='slider__label'>
           LENGTH
@@ -28,7 +28,7 @@ const Slider = ({ minValue, maxValue, defaultValue }) => {
         min={min}
         max={max}
         id='slider-input'
-        class='slider__input'
+        className='slider__input'
         style={{ backgroundSize: progress }}
         onChange={handleChangeRange}
         value={length}

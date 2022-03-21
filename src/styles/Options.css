@@ -14,7 +14,3 @@
   grid-template-columns: repeat(3, 1fr);
   column-gap: 20px;
 }
-
-/* .options__checkboxes-container-item {
-  display: flex;
-} */

@@ -16,6 +16,10 @@
   background-color: #04aa6d;
 }
 
+.checkbox-pseudo__active {
+  background-color: #04aa6d;
+}
+
 .checkbox-pseudo__invisible {
   position: absolute;
   width: 1px;
