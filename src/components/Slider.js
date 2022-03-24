@@ -1,10 +1,7 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 
-const Slider = ({ minValue, maxValue, defaultValue }) => {
-  const min = minValue || 0;
-  const max = maxValue || 1000;
-  const value = defaultValue || min;
+const Slider = ({ min, max, value, caption }) => {
   const [length, setLength] = useState(value >= min && value <= max ? value : min);
   const [progress, setProgress] = useState(`${((length - min) * 100) / (max - min)}% 100%`);
 
@@ -17,7 +14,7 @@ const Slider = ({ minValue, maxValue, defaultValue }) => {
     <div className='slider'>
       <div className='slider__labels-container'>
         <label htmlFor='slider-input' className='slider__label'>
-          LENGTH
+          {caption}
         </label>
         <label htmlFor='slider-input' className='slider__label'>
           {length}
@@ -38,9 +35,17 @@ const Slider = ({ minValue, maxValue, defaultValue }) => {
 };
 
 Slider.propTypes = {
-  minValue: PropTypes.number,
-  maxValue: PropTypes.number,
-  defaultValue: PropTypes.number,
+  min: PropTypes.number,
+  max: PropTypes.number,
+  value: PropTypes.number,
+  caption: PropTypes.string,
+};
+
+Slider.defaultProps = {
+  min: 0,
+  max: 100,
+  value: 0,
+  caption: 'LENGTH',
 };
 
 export default Slider;

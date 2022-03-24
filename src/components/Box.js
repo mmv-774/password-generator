@@ -5,8 +5,12 @@ const Box = ({ children, isBordered }) => {
 };
 
 Box.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.node.isRequired,
   isBordered: PropTypes.bool,
+};
+
+Box.defaultProps = {
+  isBordered: true,
 };
 
 export default Box;

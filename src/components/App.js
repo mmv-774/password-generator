@@ -10,10 +10,10 @@ const App = () => {
     <Layout>
       <Title title='PASSWORD GENERATOR' />
       <Generator>
-        <Box isBordered={true}>
+        <Box>
           <Result />
         </Box>
-        <Box isBordered={true}>
+        <Box>
           <Options />
         </Box>
       </Generator>

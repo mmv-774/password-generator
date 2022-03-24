@@ -1,9 +1,11 @@
 .title {
   margin: 0;
+  max-width: 100%;
   padding: 35px 0 0;
   box-sizing: border-box;
   font-size: 72px;
   text-align: center;
+  overflow-wrap: break-word;
 }
 
 @media screen and (max-width: 650px) {

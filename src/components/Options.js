@@ -1,15 +1,18 @@
-import Checkbox from './Checkbox';
 import Slider from './Slider';
+import Checkbox from './Checkbox';
+import CheckboxList from './CheckboxList';
 
 const Options = () => {
+  const checkboxes = [
+    <Checkbox id={1} caption='123' />,
+    <Checkbox id={2} caption='ABC' />,
+    <Checkbox id={3} caption='!@#' />,
+  ];
+
   return (
     <div className='options'>
-      <Slider minValue={6} maxValue={20} defaultValue={10} />
-      <div className='options__checkboxes-container'>
-        <Checkbox name='numbers' caption='123' />
-        <Checkbox name='letters' caption='ABC' />
-        <Checkbox name='characters' caption='!@#' />
-      </div>
+      <Slider min={6} max={20} value={10} />
+      <CheckboxList checkboxes={checkboxes} />
     </div>
   );
 };
