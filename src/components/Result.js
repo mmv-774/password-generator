@@ -1,15 +1,20 @@
+import refresh from '../images/refresh-btn-icon.svg';
+import copy from '../images/copy-btn-icon.svg';
+import Button from "./Button";
+import GridContainer from './GridContainer';
+
 const Result = () => {
+  const buttons = [
+    <Button icon={refresh} />,
+    <Button icon={copy} />,
+  ];
+
+
+
   return (
     <div className='result'>
       <p className='result__text'>@@@@@@@@@@@@@@@@@@@@</p>
-      <ul className='result__buttons-container'>
-        <li className='result__buttons-container-item'>
-          <button className='result__button result__button_action_refresh' />
-        </li>
-        <li className='result__buttons-container-item'>
-          <button className='result__button result__button_action_copy' />
-        </li>
-      </ul>
+      <GridContainer items={buttons} columns={2} gap={'5px'}/>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import Slider from './Slider';
 import Checkbox from './Checkbox';
-import CheckboxList from './CheckboxList';
+import GridContainer from './GridContainer';
 
 const Options = () => {
   const checkboxes = [
@@ -12,7 +12,7 @@ const Options = () => {
   return (
     <div className='options'>
       <Slider min={6} max={20} value={10} />
-      <CheckboxList checkboxes={checkboxes} />
+      <GridContainer items={checkboxes} columns={3} />
     </div>
   );
 };

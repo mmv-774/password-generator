@@ -1,0 +1,10 @@
+.grid-container {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.grid-container-item {
+  display: flex;
+}

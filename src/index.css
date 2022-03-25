@@ -2,10 +2,11 @@
 @import url('./fonts/fonts.css');
 @import url('./styles/App.css');
 @import url('./styles/Box.css');
+@import url('./styles/Button.css');
 @import url('./styles/Checkbox.css');
-@import url('./styles/CheckboxList.css');
 @import url('./styles/Common.css');
 @import url('./styles/Generator.css');
+@import url('./styles/GridContainer.css');
 @import url('./styles/Layout.css');
 @import url('./styles/Options.css');
 @import url('./styles/Result.css');
