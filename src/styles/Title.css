@@ -6,6 +6,7 @@
   font-size: 72px;
   text-align: center;
   overflow-wrap: break-word;
+  user-select: none;
 }
 
 @media screen and (max-width: 650px) {

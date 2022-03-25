@@ -1,5 +1,6 @@
 .share-link{
   display: flex;
+  user-select: none;
 }
 
 .share-link__icon {
