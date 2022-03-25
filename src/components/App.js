@@ -4,6 +4,7 @@ import Generator from './Generator';
 import Box from './Box';
 import Result from './Result';
 import Options from './Options';
+import Share from './Share';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Options />
         </Box>
       </Generator>
+      <Share />
     </Layout>
   );
 };

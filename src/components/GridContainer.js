@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const GridContainer = ({ items, width, gap, columns }) => {
+const GridContainer = ({ children, width, gap, columns }) => {
   const style = {
     width: width,
     gap: gap,
@@ -9,9 +9,9 @@ const GridContainer = ({ items, width, gap, columns }) => {
 
   return (
     <ul className='grid-container' style={style}>
-      {items.map((item, index) => (
+      {children.map((child, index) => (
         <li className='grid-container-item' key={index}>
-          {item}
+          {child}
         </li>
       ))}
     </ul>
@@ -19,7 +19,7 @@ const GridContainer = ({ items, width, gap, columns }) => {
 };
 
 GridContainer.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.element).isRequired,
+  children: PropTypes.arrayOf(PropTypes.element).isRequired,
   width: PropTypes.string,
   gap: PropTypes.string,
   columns: PropTypes.number,

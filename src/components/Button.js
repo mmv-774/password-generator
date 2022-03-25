@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-function Button({ icon }) {
+const Button = ({ icon }) => {
   return <button className='button' style={{ backgroundImage: `url(${icon})` }} />;
-}
+};
 
 Button.propTypes = {
   icon: PropTypes.string.isRequired,
