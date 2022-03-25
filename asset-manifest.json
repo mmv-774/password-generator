@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.ffd39f36.css",
+    "main.css": "./static/css/main.8536a033.css",
     "main.js": "./static/js/main.9f396e7a.js",
     "static/media/Inter-Medium.woff": "./static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff": "./static/media/Inter-Black.c6938660eec019fefd68.woff",
@@ -10,14 +10,14 @@
     "static/media/Inter-Regular.woff2": "./static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
     "static/media/vk-share-icon.svg": "./static/media/vk-share-icon.987ed61515fb8d957431dacb41e1c7e5.svg",
     "static/media/telegram-share-icon.svg": "./static/media/telegram-share-icon.07751f4fd063a18a5bcd4219d651bbe7.svg",
-    "static/media/refresh-btn-icon.svg": "./static/media/refresh-btn-icon.fdecc751493af0146bb0d2c0ce80d62a.svg",
     "index.html": "./index.html",
+    "static/media/refresh-btn-icon.svg": "./static/media/refresh-btn-icon.fdecc751493af0146bb0d2c0ce80d62a.svg",
     "static/media/copy-btn-icon.svg": "./static/media/copy-btn-icon.76a081db75bb1c4f51b315327133da11.svg",
-    "main.ffd39f36.css.map": "./static/css/main.ffd39f36.css.map",
+    "main.8536a033.css.map": "./static/css/main.8536a033.css.map",
     "main.9f396e7a.js.map": "./static/js/main.9f396e7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffd39f36.css",
+    "static/css/main.8536a033.css",
     "static/js/main.9f396e7a.js"
   ]
 }
